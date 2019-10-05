@@ -75,7 +75,7 @@ public class Song {
         list.add(song3);
         list.add(song4);
 
-        Song prev = song;
+        Song prev = list.get(0);
 
         for(Song s : list){
             System.out.println(s.title());
